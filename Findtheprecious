@@ -43,7 +43,7 @@
         </div> 
       </section>
      
-      <section>
+      <section class="section">
         <div id="reward1">
           <p> Reward 1000 gold coins</p>
           <p><img src='https://images-na.ssl-images-amazon.com/images/I/51SUvwe-UjL._AC_SY200_.jpg' alt= 'un magicien'/></p>
@@ -54,7 +54,7 @@
 
       </section>
 
-      <section>
+      <section class="section">
         <div id="reward2">
           <p>DEAD</p>
           <p><img src="https://pbs.twimg.com/profile_images/1103598656949833728/wO1Y9q6v_200x200.png" alt="un_hobbit"/></p>
@@ -64,7 +64,7 @@
         <p>Small description...</p>
       </section>
 
-      <section>
+      <section class="section">
         <div id="reward3">
           <p>Reward 250 gold coins</p>
           <p><img src="http://www.postavy.cz/foto/gimli-foto.jpg" alt="gimli"/></p>
