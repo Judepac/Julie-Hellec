@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head> 
-    <meta charset="UTF-8"/> 
-    <link href="stylesheet.css" rel="stylesheet">    
+    <meta charset="UTF-8"
+          name="auteur" content="Julie Hellec"
+          name="description" content="Un site permettant à l'armée de sauron de se retrouver et d'échanger sur les objectifs a atteindre">
+    <link href="stylesheet.css" rel="stylesheet"/>    
     <title>FindThePrecious.com</title>
    
   </head>
@@ -13,12 +15,12 @@
    
     <nav>
       <ul>
-        <li><a href="#Fellows">Fellows</a></li>
-        <li><a href="#Ring">The Ring</a></li>
-        <li><a href="#get">Get my Rewards</a></li>
-        <li><a href="#best">Best hunters</a></li>
-        <li><a href="#army">Join my army</a></li>
-        <li><a href="#contact">Contact us</a></li>
+        <li><a href="#Fellows" title="Fellows">Fellows</a></li>
+        <li><a href="#Ring" title="Bague">The Ring</a></li>
+        <li><a href="#get" title="Reward">Get my Rewards</a></li>
+        <li><a href="#best" title="Meilleur chasseur">Best hunters</a></li>
+        <li><a href="#army" title="rejoindre l'armée">Join my army</a></li>
+        <li><a href="#contact" title="nous contcater">Contact us</a></li>
       </ul>  
     </nav>
    
@@ -43,37 +45,43 @@
         </div> 
       </section>
      
+     <div id="perso">
       <section class="section">
         <div id="reward1">
-          <p> Reward 1000 gold coins</p>
-          <p><img src='https://images-na.ssl-images-amazon.com/images/I/51SUvwe-UjL._AC_SY200_.jpg' alt= 'un magicien'/></p>
+          <div class="R1"> reward <span>1000</span> gold coins</div>
+
+          <img src="http://images.innoveduc.fr/integration_gandalf.png" alt="Une image de gandalf le magicien du seigneur des anneaux"/>
+          
+          <p>Gandalf</p>
         </div>
 
-        <h3>The Wizard</h3>
+        
         <p>Small desciption...</p>
 
       </section>
 
       <section class="section">
         <div id="reward2">
-          <p>DEAD</p>
-          <p><img src="https://pbs.twimg.com/profile_images/1103598656949833728/wO1Y9q6v_200x200.png" alt="un_hobbit"/></p>
+          <div class="R1">DEAD</div>
+          <img src="https://pbs.twimg.com/profile_images/1103598656949833728/wO1Y9q6v_200x200.png" alt="Un hobbit"/>
+          <p>HOBBIT #3</p>
         </div>
 
-        <h3>HOBBIT #3</h3>
+        
         <p>Small description...</p>
       </section>
 
       <section class="section">
         <div id="reward3">
-          <p>Reward 250 gold coins</p>
-          <p><img src="http://www.postavy.cz/foto/gimli-foto.jpg" alt="gimli"/></p>
+          <div class="R1">reward <span>250</span> gold coins</div>
+          <img src="http://www.postavy.cz/foto/gimli-foto.jpg" alt="Image du personnage gimli"/>
+          <p>Yummy Dwarf</p>
         </div>
 
-        <h3>Yummy Dwarf</h3>
-        <p>Small description</p>
-      </section>
-
+        
+        <p>Small description...</p>
+     </section>
+   </div>
     </article>
 
     <article id="Ring">
@@ -173,22 +181,31 @@
 
       <form method="post" action="traitement.php">
         <fieldset>
-        
-          <label for="email"></label>
-          <input type="email" name="email" id="email" value="@"/><br/>
+          <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" value="@"/><br/>
+          </div>
 
-          <label for="adresse_postale"></label>  
-          <input type="text" name="adresse" id="adresse_postale"/><br/>
+          <div>
+            <label for="adresse_postale">Adress</label>  
+            <input type="text" name="adresse" id="adresse_postale"/><br/>
+          </div>
 
-          <label for="choix"></label>
-          <select id="choix">
-            <option value="I have seem one of them">I have seem one of them</option>
-            <option value="I saw Gandlaf">I saw Gandalf</option>
-            <option value="I am their prisoner">I am their prisoner</option>
-          </select><br/>
+          <div>
+            <label for="choix">Choice</label>
+            <select id="choix">
+              <option value="I have seem one of them">I have seem one of them</option>
+              <option value="I saw Gandlaf">I saw Gandalf</option>
+              <option value="I am their prisoner">I am their prisoner</option>
+            </select><br/>
+          </div>
 
-          <label for="message"></label>
-          <textarea name="message" id="message" placeholder="Your message"></textarea>
+          <div>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Your message"></textarea>
+          </div>
+
         </fieldset>
         
       </form>
@@ -197,17 +214,17 @@
 
     <footer>
       <ul id="part1">
-        <li><a href="#">About us</a></li>
-        <li><a href="#Fellows">Fellows</a></li>
-        <li><a href="#army">Join our army</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#get">Reward conditions</a></li>
-        <li><a href="#">Legal mentions</a></li>
+        <li><a href="#" title="A propos de nous">About us</a></li>
+        <li><a href="#Fellows" title="Fellows">Fellows</a></li>
+        <li><a href="#army" title="rejoindre armée">Join our army</a></li>
+        <li><a href="#" title="FAQ">FAQ</a></li>
+        <li><a href="#get" title="conditions reward">Reward conditions</a></li>
+        <li><a href="#" title="mentions legales">Legal mentions</a></li>
       </ul>
 
       <ul id="part2">
-        <li><a href="#">Sauron4Ever.com</a></li>
-        <li><a href="#">Follow him also on twitter</a></li>
+        <li><a href="#" title="site web de sauron">Sauron4Ever.com</a></li>
+        <li><a href="#" title="twitter de sauron">Follow him also on twitter</a></li>
       </ul>
 
     </footer>
