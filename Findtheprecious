@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head> 
-    <meta charset="UTF-8"
-          name="auteur" content="Julie Hellec"
-          name="description" content="Un site permettant à l'armée de sauron de se retrouver et d'échanger sur les objectifs a atteindre">
+    <meta charset="UTF-8"/>
+    <meta name="auteur" content="Julie Hellec"/>
+    <meta name="description" content="Un site permettant à l'armée de sauron de se retrouver et d'échanger sur les objectifs a atteindre">
     <link href="stylesheet.css" rel="stylesheet"/>    
     <title>FindThePrecious.com</title>
    
